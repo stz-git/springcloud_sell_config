@@ -2,7 +2,7 @@ spring:
   application:
     name: order
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.13.253:3306/sell?characterEncoding=UTF-8&userSSL=false
     username: root
     password: 123456
