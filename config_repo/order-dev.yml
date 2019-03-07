@@ -11,6 +11,12 @@ spring:
     password: guest
   jpa:
     show-sql: true
+  cloud: 
+    stream:
+      bindings:
+        output:
+          group: order
+          contentType: application/json
 server:
   port: 8081
 
