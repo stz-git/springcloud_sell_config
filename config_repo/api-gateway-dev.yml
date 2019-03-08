@@ -1,2 +1,21 @@
 server: 
   port: 8085
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+zuul:
+  routes:
+#  /myProduct/product/list --> /product/product/list
+    aaaaa:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:
+    bbbbb:
+      path: /myOrder/**
+      serviceId: order
+      sensitiveHeaders:
+#      product: /myProduct/**
+  ignored-patterns:
+#     - /**/product/list
+#    - /myProduct/product/list
+#    - /product/product/list
