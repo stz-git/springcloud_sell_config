@@ -14,6 +14,10 @@ zuul:
       path: /myOrder/**
       serviceId: order
       sensitiveHeaders:
+    ccccc:
+      path: /myUser/**
+      serviceId: order
+      sensitiveHeaders:
 #      product: /myProduct/**
   ignored-patterns:
 #     - /**/product/list
