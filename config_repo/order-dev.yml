@@ -20,15 +20,6 @@ spring:
 server:
   port: 8081
 
-#### change loadBalance rule
-#PRODUCT:
-#  ribbon:
-#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-
 ribbon:
     ReadTimeout: 60000
     ConnectTimeout: 60000
-env: dev
-girl:
-  name: lcla
-  age: 20
