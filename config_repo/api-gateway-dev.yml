@@ -4,6 +4,7 @@ ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
 zuul:
+  sensitive-headers: 
   routes:
 #  /myProduct/product/list --> /product/product/list
     aaaaa:
