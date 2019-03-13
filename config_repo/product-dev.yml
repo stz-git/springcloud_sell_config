@@ -12,8 +12,7 @@ server:
 
 # spring-cloud-sleuth
 logging:
-  level:
-    org.springframework.cloud.openfeign: debug
+  level: debug
 
 spring:
   datasource:
