@@ -31,7 +31,7 @@ spring:
 #    show-sql: true
 
   zipkin:
-    base-url: http://zipkin:9411
+    base-url: http://192.168.13.45:9411/
     sender:
       type: web
   sleuth:
