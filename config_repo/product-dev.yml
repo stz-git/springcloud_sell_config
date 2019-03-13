@@ -11,8 +11,9 @@ server:
 
 
 # spring-cloud-sleuth
-logging:
-  level: debug
+#logging:
+#  level:
+
 
 spring:
   datasource:
